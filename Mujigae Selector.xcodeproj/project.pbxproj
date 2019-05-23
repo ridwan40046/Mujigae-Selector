@@ -7,14 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B757917B46CED61E115A5FE /* Pods_Mujigae_Selector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F524E93123784873AF6BB538 /* Pods_Mujigae_Selector.framework */; };
 		AD5E18212295EF5800340405 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5E18202295EF5800340405 /* AppDelegate.swift */; };
 		AD5E18232295EF5800340405 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5E18222295EF5800340405 /* ViewController.swift */; };
 		AD5E18262295EF5800340405 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD5E18242295EF5800340405 /* Main.storyboard */; };
 		AD5E18282295EF5A00340405 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD5E18272295EF5A00340405 /* Assets.xcassets */; };
 		AD5E182B2295EF5A00340405 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD5E18292295EF5A00340405 /* LaunchScreen.storyboard */; };
+		AD5E183B2295F2F600340405 /* Proxima Nova Alt Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = AD5E18332295F2F500340405 /* Proxima Nova Alt Bold.otf */; };
+		AD5E183C2295F2F600340405 /* Proxima Nova Alt Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = AD5E18342295F2F600340405 /* Proxima Nova Alt Thin.otf */; };
+		AD5E183D2295F2F600340405 /* Proxima Nova Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = AD5E18352295F2F600340405 /* Proxima Nova Black.otf */; };
+		AD5E183E2295F2F600340405 /* ProximaNova-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = AD5E18362295F2F600340405 /* ProximaNova-Regular.otf */; };
+		AD5E183F2295F2F600340405 /* Proxima Nova Alt Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = AD5E18372295F2F600340405 /* Proxima Nova Alt Light.otf */; };
+		AD5E18402295F2F600340405 /* Proxima Nova Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = AD5E18382295F2F600340405 /* Proxima Nova Bold.otf */; };
+		AD5E18412295F2F600340405 /* Proxima Nova Extrabold.otf in Resources */ = {isa = PBXBuildFile; fileRef = AD5E18392295F2F600340405 /* Proxima Nova Extrabold.otf */; };
+		AD5E18422295F2F600340405 /* Proxima Nova Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = AD5E183A2295F2F600340405 /* Proxima Nova Thin.otf */; };
+		AD5E184A2296508F00340405 /* UITableViewCell+HeightToFit.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5E18442296508F00340405 /* UITableViewCell+HeightToFit.swift */; };
+		AD5E184B2296508F00340405 /* UITableView+RefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5E18452296508F00340405 /* UITableView+RefreshControl.swift */; };
+		AD5E184C2296508F00340405 /* UITableView+ReloadSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5E18462296508F00340405 /* UITableView+ReloadSection.swift */; };
+		AD5E184D2296508F00340405 /* UITableView+Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5E18472296508F00340405 /* UITableView+Cell.swift */; };
+		AD5E184E2296508F00340405 /* UITableView+IndexPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5E18482296508F00340405 /* UITableView+IndexPath.swift */; };
+		AD5E184F2296508F00340405 /* UITableViewCell+ChainSetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5E18492296508F00340405 /* UITableViewCell+ChainSetter.swift */; };
+		AD5E18512296BCD700340405 /* DoneVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5E18502296BCD700340405 /* DoneVc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D6C1CB3CF8CCBAEA171C4AA /* Pods-Mujigae Selector.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mujigae Selector.debug.xcconfig"; path = "Target Support Files/Pods-Mujigae Selector/Pods-Mujigae Selector.debug.xcconfig"; sourceTree = "<group>"; };
+		484B465036E8A49FDF0B1535 /* Pods-Mujigae Selector.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mujigae Selector.release.xcconfig"; path = "Target Support Files/Pods-Mujigae Selector/Pods-Mujigae Selector.release.xcconfig"; sourceTree = "<group>"; };
 		AD5E181D2295EF5800340405 /* Mujigae Selector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mujigae Selector.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD5E18202295EF5800340405 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD5E18222295EF5800340405 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +40,22 @@
 		AD5E18272295EF5A00340405 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD5E182A2295EF5A00340405 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD5E182C2295EF5A00340405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD5E18332295F2F500340405 /* Proxima Nova Alt Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Alt Bold.otf"; sourceTree = "<group>"; };
+		AD5E18342295F2F600340405 /* Proxima Nova Alt Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Alt Thin.otf"; sourceTree = "<group>"; };
+		AD5E18352295F2F600340405 /* Proxima Nova Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Black.otf"; sourceTree = "<group>"; };
+		AD5E18362295F2F600340405 /* ProximaNova-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ProximaNova-Regular.otf"; sourceTree = "<group>"; };
+		AD5E18372295F2F600340405 /* Proxima Nova Alt Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Alt Light.otf"; sourceTree = "<group>"; };
+		AD5E18382295F2F600340405 /* Proxima Nova Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Bold.otf"; sourceTree = "<group>"; };
+		AD5E18392295F2F600340405 /* Proxima Nova Extrabold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Extrabold.otf"; sourceTree = "<group>"; };
+		AD5E183A2295F2F600340405 /* Proxima Nova Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Proxima Nova Thin.otf"; sourceTree = "<group>"; };
+		AD5E18442296508F00340405 /* UITableViewCell+HeightToFit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+HeightToFit.swift"; sourceTree = "<group>"; };
+		AD5E18452296508F00340405 /* UITableView+RefreshControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+RefreshControl.swift"; sourceTree = "<group>"; };
+		AD5E18462296508F00340405 /* UITableView+ReloadSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+ReloadSection.swift"; sourceTree = "<group>"; };
+		AD5E18472296508F00340405 /* UITableView+Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Cell.swift"; sourceTree = "<group>"; };
+		AD5E18482296508F00340405 /* UITableView+IndexPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+IndexPath.swift"; sourceTree = "<group>"; };
+		AD5E18492296508F00340405 /* UITableViewCell+ChainSetter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+ChainSetter.swift"; sourceTree = "<group>"; };
+		AD5E18502296BCD700340405 /* DoneVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoneVc.swift; sourceTree = "<group>"; };
+		F524E93123784873AF6BB538 /* Pods_Mujigae_Selector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mujigae_Selector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +63,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B757917B46CED61E115A5FE /* Pods_Mujigae_Selector.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10224BCF55BBC88038049E19 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D6C1CB3CF8CCBAEA171C4AA /* Pods-Mujigae Selector.debug.xcconfig */,
+				484B465036E8A49FDF0B1535 /* Pods-Mujigae Selector.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		AD5E18142295EF5800340405 = {
 			isa = PBXGroup;
 			children = (
 				AD5E181F2295EF5800340405 /* Mujigae Selector */,
 				AD5E181E2295EF5800340405 /* Products */,
+				10224BCF55BBC88038049E19 /* Pods */,
+				EE81DE687A89B4D559F9810C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +100,53 @@
 		AD5E181F2295EF5800340405 /* Mujigae Selector */ = {
 			isa = PBXGroup;
 			children = (
+				AD5E18432296506E00340405 /* Library */,
+				AD5E18322295F2E000340405 /* Fonts */,
 				AD5E18202295EF5800340405 /* AppDelegate.swift */,
 				AD5E18222295EF5800340405 /* ViewController.swift */,
 				AD5E18242295EF5800340405 /* Main.storyboard */,
 				AD5E18272295EF5A00340405 /* Assets.xcassets */,
 				AD5E18292295EF5A00340405 /* LaunchScreen.storyboard */,
 				AD5E182C2295EF5A00340405 /* Info.plist */,
+				AD5E18502296BCD700340405 /* DoneVc.swift */,
 			);
 			path = "Mujigae Selector";
+			sourceTree = "<group>";
+		};
+		AD5E18322295F2E000340405 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				AD5E18332295F2F500340405 /* Proxima Nova Alt Bold.otf */,
+				AD5E18372295F2F600340405 /* Proxima Nova Alt Light.otf */,
+				AD5E18342295F2F600340405 /* Proxima Nova Alt Thin.otf */,
+				AD5E18352295F2F600340405 /* Proxima Nova Black.otf */,
+				AD5E18382295F2F600340405 /* Proxima Nova Bold.otf */,
+				AD5E18392295F2F600340405 /* Proxima Nova Extrabold.otf */,
+				AD5E183A2295F2F600340405 /* Proxima Nova Thin.otf */,
+				AD5E18362295F2F600340405 /* ProximaNova-Regular.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		AD5E18432296506E00340405 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				AD5E18472296508F00340405 /* UITableView+Cell.swift */,
+				AD5E18482296508F00340405 /* UITableView+IndexPath.swift */,
+				AD5E18452296508F00340405 /* UITableView+RefreshControl.swift */,
+				AD5E18462296508F00340405 /* UITableView+ReloadSection.swift */,
+				AD5E18492296508F00340405 /* UITableViewCell+ChainSetter.swift */,
+				AD5E18442296508F00340405 /* UITableViewCell+HeightToFit.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		EE81DE687A89B4D559F9810C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F524E93123784873AF6BB538 /* Pods_Mujigae_Selector.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +156,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD5E182F2295EF5A00340405 /* Build configuration list for PBXNativeTarget "Mujigae Selector" */;
 			buildPhases = (
+				6D61E976BCE1A0128F59CE59 /* [CP] Check Pods Manifest.lock */,
 				AD5E18192295EF5800340405 /* Sources */,
 				AD5E181A2295EF5800340405 /* Frameworks */,
 				AD5E181B2295EF5800340405 /* Resources */,
+				99180E714F933D2BD44C36FD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,21 +209,83 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD5E18402295F2F600340405 /* Proxima Nova Bold.otf in Resources */,
 				AD5E182B2295EF5A00340405 /* LaunchScreen.storyboard in Resources */,
+				AD5E183E2295F2F600340405 /* ProximaNova-Regular.otf in Resources */,
 				AD5E18282295EF5A00340405 /* Assets.xcassets in Resources */,
+				AD5E18422295F2F600340405 /* Proxima Nova Thin.otf in Resources */,
+				AD5E183D2295F2F600340405 /* Proxima Nova Black.otf in Resources */,
+				AD5E183B2295F2F600340405 /* Proxima Nova Alt Bold.otf in Resources */,
+				AD5E18412295F2F600340405 /* Proxima Nova Extrabold.otf in Resources */,
 				AD5E18262295EF5800340405 /* Main.storyboard in Resources */,
+				AD5E183F2295F2F600340405 /* Proxima Nova Alt Light.otf in Resources */,
+				AD5E183C2295F2F600340405 /* Proxima Nova Alt Thin.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6D61E976BCE1A0128F59CE59 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mujigae Selector-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99180E714F933D2BD44C36FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mujigae Selector/Pods-Mujigae Selector-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PMSuperButton/PMSuperButton.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PMSuperButton.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mujigae Selector/Pods-Mujigae Selector-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AD5E18192295EF5800340405 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD5E184C2296508F00340405 /* UITableView+ReloadSection.swift in Sources */,
 				AD5E18232295EF5800340405 /* ViewController.swift in Sources */,
+				AD5E184A2296508F00340405 /* UITableViewCell+HeightToFit.swift in Sources */,
+				AD5E184B2296508F00340405 /* UITableView+RefreshControl.swift in Sources */,
 				AD5E18212295EF5800340405 /* AppDelegate.swift in Sources */,
+				AD5E184D2296508F00340405 /* UITableView+Cell.swift in Sources */,
+				AD5E18512296BCD700340405 /* DoneVc.swift in Sources */,
+				AD5E184F2296508F00340405 /* UITableViewCell+ChainSetter.swift in Sources */,
+				AD5E184E2296508F00340405 /* UITableView+IndexPath.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +429,7 @@
 		};
 		AD5E18302295EF5A00340405 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D6C1CB3CF8CCBAEA171C4AA /* Pods-Mujigae Selector.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +448,7 @@
 		};
 		AD5E18312295EF5A00340405 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 484B465036E8A49FDF0B1535 /* Pods-Mujigae Selector.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

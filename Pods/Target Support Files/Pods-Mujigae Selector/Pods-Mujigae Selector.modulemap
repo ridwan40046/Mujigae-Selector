@@ -1,0 +1,6 @@
+framework module Pods_Mujigae_Selector {
+  umbrella header "Pods-Mujigae Selector-umbrella.h"
+
+  export *
+  module * { export * }
+}
